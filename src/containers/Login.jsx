@@ -71,8 +71,8 @@ const Login = (props) => {
   );
 };
 
-const mapDisoatchToProps = {
+const mapDispatchToProps = {
   loginRequest,
 };
 
-export default connect(null, mapDisoatchToProps)(Login);
+export default connect(null, mapDispatchToProps)(Login);
